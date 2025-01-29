@@ -1,10 +1,7 @@
 package com.demoqa.tests;
 
-import com.codeborne.selenide.Condition;
-import com.demoqa.api.AddBooksListModel;
-import com.demoqa.api.AuthorizationApi;
-import com.demoqa.api.BooksApi;
-import com.demoqa.api.IsbnModel;
+import com.demoqa.models.AddBooksListModel;
+import com.demoqa.models.IsbnModel;
 import com.demoqa.models.LoginResponseModel;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Cookie;
